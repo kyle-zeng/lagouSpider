@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'lagouSpider.spiders'
 MYSQL_HOSTS = '127.0.0.1'
 MYSQL_PORT = 3306
 MYSQL_USER = 'root'
-MYSQL_PASSWORD = 'Zkh070435'
+MYSQL_PASSWORD = '****'
 MYSQL_DB = 'test'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS `logoujob`;
+CREATE TABLE `logoujob` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `position_name` varchar(50) DEFAULT NULL,
+  `city` varchar(20) DEFAULT NULL,
+  `salary` varchar(20) DEFAULT NULL,
+  `work_year` varchar(20) DEFAULT NULL,
+  `company_full_name` varchar(255) DEFAULT NULL,
+  `finance_stage` varchar(10) DEFAULT NULL,
+  `create_time` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)DEFAULT CHARSET=utf8;
